@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "heroku_jxlq4wcl": {
+        "host": "ds157342.mlab.com:57342",
+        "port": 27017,
+        "url": "mongodb://heroku_jxlq4wcl:ls2jhcrg9nhets5fq97ajppcik@ds157342.mlab.com:57342/heroku_jxlq4wcl",
+        "database": "heroku_jxlq4wcl",
+        "name": "heroku_jxlq4wcl",
+        "connector": "mongodb",
+        "connectionTimeout": 50000
+    }
+}
