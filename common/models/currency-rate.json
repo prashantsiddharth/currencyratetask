@@ -15,7 +15,7 @@
       "required": true
     },
     "last_updated": {
-      "type": "date",
+      "type": "number",
       "required": true
     },
     "rate": {
