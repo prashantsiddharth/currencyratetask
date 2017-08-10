@@ -38,14 +38,7 @@ module.exports = function()
         opts = {
             url : theUrl
         };
-        request.get(opts, function (error, response, body) {
-            // var fs = require('fs');
-            // fs.writeFile("/Users/Leeladhar/Desktop/tmp/test.html", body, function(err) {
-            // if(err) {
-            //     return console.log(err);
-            // }
-            //     console.log("The file was saved!");
-            // }); 
+        request.get(opts, function (error, response, body) { 
             var s = JSON.stringify(body);
             var index1 = s.indexOf('1 '+payload.from+' = ');
             var index2 = (s.substr(index1+8)).indexOf(' ' + payload.to);
