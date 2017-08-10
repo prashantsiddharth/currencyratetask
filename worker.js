@@ -11,4 +11,4 @@ var options = {
 
 var worker = new Beanworker(options); // Instantiate a worker
 
-worker.start(['my_tube']); // Listen on my_tube
+worker.start(['prashantsiddharth']); // Listen on my_tube

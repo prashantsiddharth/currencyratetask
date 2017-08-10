@@ -13,38 +13,24 @@
       "./mixins" 
     ]
   },
-  "User": {
-    "dataSource": "db"
-  },
-  "AccessToken": {
-    "dataSource": "db",
-    "public": false
-  },
+  
+  
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "heroku_jxlq4wcl",
     "public": false
   },
-  "RoleMapping": {
-    "dataSource": "db",
-    "public": false,
-    "options": {
-      "strictObjectIDCoercion": true
-    }
-  },
-  "Role": {
-    "dataSource": "db",
-    "public": false
-  },
-  "Message": {
-    "dataSource": null
-  },
+  
   "CurrencyRate": {
     "dataSource": "heroku_jxlq4wcl",
     "public": true,
     "options":{
       "remoting":{
         "sharedMethods":{
-          "*":true
+          "*":false,
+          "upsert":true,
+          "find":true,
+          "create":true,
+          "destroyById":true
         }
       }
     }
